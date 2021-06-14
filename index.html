@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заказа</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="block-img">
+            <span class="block-img__name">Reduslim</span>
+            <div class="block-img__elips">
+                <img src="image/image.png" alt="картинка" class="block-img__image">
+            </div>
+            <div class="block-img__rad"></div>
+            <span class="block-img__eco">ECO</span>
+        </div>
+        <!-- /.block-img -->
+        <div class="block-form">
+            <h2 class="block-form__title">Сделай шаг <span>к выздоровлению</span></h2>
+
+            <form action="#" class="block-form__form">
+                
+                <p class="block-form__name">Ваше <span>имя</span></p>
+                <input type="text" class="block-form__input-name" placeholder="Алексей">
+            
+                <p class="block-form__name">Ваш <span>телефон</span></p>
+                <div class="block-form__wrapper">
+                    <input type="tel" class="block-form__input-tel" placeholder="+7 (123) 456 78-90">
+                    
+                    <div class="block-form__select-wrap">
+                        <select class="select-events">
+                            <option value="0" class="icon-ru">RU</option>
+                            <option value="1" class="icon-ukr">UKR</option>
+                            <option value="2" class="icon-blr">BLR</option>
+                            <option value="3" class="icon-kz">KZ</option>
+                        </select>
+                    </div>
+                    
+                </div>
+
+                <button class="block-form__btn">
+                    <span>Заказать</span>
+                    <svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.5 6H16.5M16.5 6L11.5 1M16.5 6L11.5 11" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <!-- /.block-fotm -->
+
+        <div class="clear"></div>
+    </div>
+    <!-- /.container -->
+
+    <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
